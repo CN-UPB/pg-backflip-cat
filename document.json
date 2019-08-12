@@ -115,7 +115,7 @@
   						  "Name": "Nginx",
   						  "Logo": "https://www.nginx.com/wp-content/uploads/2018/08/NGINX-logo-rgb-large.png",
                 "Creator": "Deepak",
-                "Complexity": ,
+                "Complexity": "1",
                 "Description": " NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It designed for maximum performance and stability in web server. NGINX can also function as a proxy server for Email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers. The motivation for NGINX was to create as fastest web server and maintaining that excellence. NGINX also is frequently placed between clients and a second web server, to serve as an SSL/TLS terminator or a web accelerator. Acting as an intermediary, NGINX efficiently handles tasks that might slow down your web server, such as negotiating SSL/TLS or compressing and caching content to improve performance. Dynamic sites, built using anything from Node.js to PHP, commonly deploy NGINX as a content cache and reverse proxy to reduce load on application servers and make the most effective use of the underlying hardware. NGINX is multifunctional tool as it uses same name tool for the load balancer, reverse proxy and web server. ",
                 "table_data": [
                     {
