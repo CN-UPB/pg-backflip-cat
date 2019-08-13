@@ -211,7 +211,7 @@
   						  "Logo": "https://d33wubrfki0l68.cloudfront.net/1b8ea408142c253bb8e16596218e4e328d019c58/862c3/assets/img/traefik.logo.bright@3x.svg",
                 "Creator": "test",
                 "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "Description": "",
                 "table_data": [
                     {
                       "Label": "Github Link",
@@ -332,7 +332,9 @@
                 "Logo": "https://i.udemycdn.com/course/750x422/1814454_c113.jpg",
                 "Developed By": "test",
                 "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "Description": "It is a caching proxy for web servers (i.e. HTTP, HTTPS, FTP, etc.). Main feature of squid is that it caches the frequently used web-pages resulting in improved response time
+                                and less network bandwidth utilization. Squid is used to optimize the data flow between server and client. Furthermore,
+                                squid can be used to decrease server load resulting in improved performance for clients.",
                 "table_data": [
                     {
                       "Label": "Github Link",
@@ -352,11 +354,11 @@
                     },
                     {
                       "Label": "Traffic type",
-                      "Data": "#"
+                      "Data": "HTTP"
                     },
                     {
                       "Label": "Load Generator",
-                      "Data": "#"
+                      "Data": "Apache Bench"
                     }
                 ]
   						},
