@@ -330,7 +330,7 @@
   						  "Id": "51",
   						  "Name": "Squid",
                 "Logo": "https://i.udemycdn.com/course/750x422/1814454_c113.jpg",
-                "Creator": "test",
+                "Developed By": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
@@ -340,6 +340,22 @@
                     },
                     {
                       "Label": "Docker Link",
+                      "Data": "#"
+                    },
+                    {
+                      "Label": "Configuration Parameters",
+                      "Data": "vim /etc/squid/squid.conf \n acl client src ip_address \n http_access allow client \n cache deny all"
+                    },
+                    {
+                      "Label": "Dependencies",
+                      "Data": "#"
+                    },
+                    {
+                      "Label": "Traffic type",
+                      "Data": "#"
+                    },
+                    {
+                      "Label": "Load Generator",
                       "Data": "#"
                     }
                 ]
