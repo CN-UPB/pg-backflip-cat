@@ -199,7 +199,7 @@
                   }
                   table_data+=' </tbody><table>';
                 }
-                var sub_data='<table class="table table-borderless"><tbody><tr><td><p class="text-left"><b>Creator</b></p></td><td><p class="text-left">'+json.Vnf_data[i].List[j].Creator+'</p></td></tr><tr><td><p class="text-left"><b>Complexity</b></p></td><td><p class="text-left">'+json.Vnf_data[i].List[j].Complexity+'</p></td></tr><tr><td><p class="text-left"><b>Description</b></p></td><td><p class="text-left">'+json.Vnf_data[i].List[j].Description+'</p></td></tr></tbody></table><p class="mb-5">'+table_data+'</p>';
+                var sub_data='<table class="table table-borderless"><tbody><tr><td><p class="text-left"><b>Developed By</b></p></td><td><p class="text-left">'+json.Vnf_data[i].List[j].Assignee+'</p></td></tr><tr><td><p class="text-left"><b>Complexity</b></p></td><td><p class="text-left">'+json.Vnf_data[i].List[j].Complexity+'</p></td></tr><tr><td><p class="text-left"><b>Description</b></p></td><td><p class="text-left">'+json.Vnf_data[i].List[j].Description+'</p></td></tr></tbody></table><p class="mb-5">'+table_data+'</p>';
                 append_data+='<div class="card-body"><h5 class="card-title">'+json.Vnf_data[i].List[j].Name+'</h5></div></div>';
 
                 var modal='<div class="portfolio-modal modal fade" id="portfolioModal'+json.Vnf_data[i].List[j].Id+'" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true"><div class="modal-dialog modal-xl" role="document"><div class="modal-content"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button><div class="modal-body text-center"><div class="container">  <div class="row justify-content-center"><div class="col-lg-8"><h5 class="card-title">'+json.Vnf_data[i].List[j].Name+'</h5><div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-star"></i></div><div class="divider-custom-line"></div></div>  '+sub_data+'<button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button></div>  </div>  </div>  </div>  </div>  </div></div>';
@@ -225,7 +225,7 @@
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
 <style>
-  td { white-space:pre; }
+  .table-striped td { white-space:pre; }
 </style>
 </body>
 
