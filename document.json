@@ -370,17 +370,17 @@
   						  "Id": "28",
   						  "Name": "Traefik",
   						  "Logo": "https://d33wubrfki0l68.cloudfront.net/1b8ea408142c253bb8e16596218e4e328d019c58/862c3/assets/img/traefik.logo.bright@3x.svg",
-                "Assignee": "test",
+                "Assignee": "Ishwariya",
                 "Complexity": "1",
-                "Description": "",
+                "Description": "Traefik is a HTTP reverse proxy and load balancer.",
                 "table_data": [
                   {
                     "Label": "Github Link",
-                    "Data": "#"
+                    "Data": "https://github.com/ishriya/traefik_vnf"
                   },
                   {
                     "Label": "Docker Link",
-                    "Data": "#"
+                    "Data": "ishriya/traefik_vnf"
                   },
                   {
                     "Label": "Configuration Parameters",
@@ -396,7 +396,7 @@
                   },
                   {
                     "Label": "Load Generator",
-                    "Data": ""
+                    "Data": "Apache bench"
                   }
                 ]
 
