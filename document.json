@@ -13,18 +13,34 @@
   						  "Id": "11",
   						  "Name": "IPFire",
                 "Logo": "",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
 
   						},
@@ -32,36 +48,68 @@
                 "Id": "12",
                 "Name": "Linux IPtables",
                 "Logo": "",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
               },
               {
                 "Id": "13",
                 "Name": "ConfigServer Firewall (CSF)",
                 "Logo": "",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
               }
   			]
@@ -77,25 +125,41 @@
   						  "Id": "21",
   						  "Name": "SeeSaw",
   						  "Logo" : "",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
   						},
   						{
   						  "Id": "22",
   						  "Name": "High Availability Proxy (HAProxy)",
   						  "Logo": "http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png",
-                "Creator": "Anush Shankar",
+                "Assignee": "Anush Shankar",
                 "Complexity": "1",
                 "Description": "HAProxy is a open source high availability solution which provides load balacing and proxying for TCP and HTTP based applications by spreading requests across multiple servers.",
                 "table_data": [
@@ -106,7 +170,23 @@
                     {
                       "Label": "Docker Link",
                       "Data": "ashankar3/docker_haproxy_img"
-                    }
+                    },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
 
   						},
@@ -114,18 +194,34 @@
   						  "Id": "23",
   						  "Name": "Nginx",
   						  "Logo": "https://www.nginx.com/wp-content/uploads/2018/08/NGINX-logo-rgb-large.png",
-                "Creator": "Deepak",
+                "Assignee": "Deepak",
                 "Complexity": "1",
                 "Description": " NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It designed for maximum performance and stability in web server. NGINX can also function as a proxy server for Email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers. The motivation for NGINX was to create as fastest web server and maintaining that excellence. NGINX also is frequently placed between clients and a second web server, to serve as an SSL/TLS terminator or a web accelerator. Acting as an intermediary, NGINX efficiently handles tasks that might slow down your web server, such as negotiating SSL/TLS or compressing and caching content to improve performance. Dynamic sites, built using anything from Node.js to PHP, commonly deploy NGINX as a content cache and reverse proxy to reduce load on application servers and make the most effective use of the underlying hardware. NGINX is multifunctional tool as it uses same name tool for the load balancer, reverse proxy and web server. ",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "https://github.com/DeepakBhardwajA/VNF"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": "#"
+                  }
                 ]
 
   						},
@@ -133,18 +229,34 @@
   						  "Id": "24",
   						  "Name": "Zevenet",
   						  "Logo": "https://www.zevenet.com/wp-content/uploads/2017/01/Zevenet_logo_original.png",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
 
   						},
@@ -152,18 +264,34 @@
   						  "Id": "25",
   						  "Name": "Neutrino",
   						  "Logo": "https://camo.githubusercontent.com/c1b6a59c127da47ddbe7bba012b64d2f08732a1c/687474703a2f2f6e65757472696e6f736c622e6769746875622e696f2f696d616765732f6e65757472696e6f2d6c6f676f2e706e67",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
 
   						},
@@ -171,18 +299,35 @@
   						  "Id": "26",
   						  "Name": "Pen",
   						  "Logo": "",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
+                    
                 ]
 
   						},
@@ -190,18 +335,34 @@
   						  "Id": "27",
   						  "Name": "Gobetween",
   						  "Logo": "http://gobetween.io/i/logo.png",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
 
   						},
@@ -209,18 +370,34 @@
   						  "Id": "28",
   						  "Name": "Traefik",
   						  "Logo": "https://d33wubrfki0l68.cloudfront.net/1b8ea408142c253bb8e16596218e4e328d019c58/862c3/assets/img/traefik.logo.bright@3x.svg",
-                "Creator": "test",
+                "Assignee": "Ishwariya",
                 "Complexity": "1",
-                "Description": "",
+                "Description": "Traefik is a HTTP reverse proxy and load balancer.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "https://github.com/ishriya/traefik_vnf"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "ishriya/traefik_vnf"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": "Apache bench"
+                  }
                 ]
 
   						}
@@ -238,36 +415,68 @@
   						  "Id": "31",
   						  "Name": "OpenIMScore",
                 "Logo": "https://www.av.tu-berlin.de/fileadmin/_processed_/3/3c/csm_OSIMS-Raute_72ce15a2be.gif",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
   						},
               {
   						  "Id": "32",
   						  "Name": "OpenIMScore",
                 "Logo": "http://www.projectclearwater.org/wp-content/uploads/2013/04/cwlogo11.png",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
   						}
   			]
@@ -284,36 +493,68 @@
   						  "Id": "41",
   						  "Name": "Suricata",
                 "Logo": "https://idsips.files.wordpress.com/2015/10/suri-400x400.png?w=300",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
   						},
               {
   						  "Id": "42",
   						  "Name": "Snort",
                 "Logo": "https://www.stickpng.com/assets/images/586e6b2cc2d41da57a33ca0d.png",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
   						}
   			]
@@ -330,7 +571,7 @@
   						  "Id": "51",
   						  "Name": "Squid",
                 "Logo": "https://i.udemycdn.com/course/750x422/1814454_c113.jpg",
-                "Developed By": "test",
+                "Assignee": "Abdul Ahad Ayaz",
                 "Complexity": "1",
                 "Description": "It is a caching proxy for web servers (i.e. HTTP, HTTPS, FTP, etc.). Main feature of squid is that it caches the frequently used web-pages resulting in improved response time and less network bandwidth utilization. Squid is used to optimize the data flow between server and client. Furthermore, squid can be used to decrease server load resulting in improved performance for clients.",
                 "table_data": [
@@ -364,54 +605,68 @@
   						  "Id": "52",
   						  "Name": "Mitmproxy",
                 "Logo": "https://uploads.maximilianhils.com/2017-01/logo-brand-inverted.png",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
   						},
               {
   						  "Id": "53",
-  						  "Name": "Apache HTTPD Server",
-                "Logo": "https://www.fullstackpython.com/img/logos/apache-http-server.jpg",
-                "Creator": "test",
-                "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
-                ]
-  						},
-              {
-  						  "Id": "54",
   						  "Name": "3Proxy",
                 "Logo": "https://gettraffic.pro/wp-content/uploads/2017/07/3proxy.jpg",
-                "Creator": "test",
+                "Assignee": "test",
                 "Complexity": "1",
                 "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
   						}
   			]
@@ -428,18 +683,34 @@
   						  "Id": "61",
   						  "Name": "vAAA (FreeRADIUS)",
                 "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Freeradius_logo.svg/1280px-Freeradius_logo.svg.png",
-                "Creator": "Arif",
+                "Assignee": "Arif",
                 "Complexity": "1",
                 "Description": "The FreeRADIUS Server Project is a high performance and highly configurable multi-protocol policy server, supporting RADIUS, DHCPv4 and VMPS. Using RADIUS allows authentication and authorization for a network to be centralized, and minimizes the number of changes that have to be done when adding or deleting new users to a network.\n\nFreeRADIUS can authenticate users on systems such as 802.1x (WiFi), dialup, PPPoE, VPN's, VoIP, and many others. It supports back-end databases such as MySQL, PostgreSQL, Oracle, Microsoft Active Directory, Redis, OpenLDAP. It is used daily to authenticate the Internet access for hundreds of millions of people, in sites ranging from 10 to 10 million+ users.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "https://hub.docker.com/r/freeradius/freeradius-server/"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": ""
+                  }
                 ]
   						}
   			]
@@ -454,20 +725,36 @@
 
   						{
   						  "Id": "71",
-                "Name": "Apache HTTPD Server",
+                "Name": "Apache Server",
                 "Logo": "https://www.fullstackpython.com/img/logos/apache-http-server.jpg",
-                "Creator": "test",
+                "Assignee": "Arjun Parab",
                 "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "Description": "Apache is a popular open-source, cross-platform web server which is actively maintained by the Apache Software Foundation. It was first released in 1995 and played a key role in initial growth of WWW, today many cpanel utilize apache. Also it provides a secure, efficient and extensible server that provides HTTP services. It mostly runs in linux distribution but current version run on windows also. Now it’s the most popular web server platform for hosting web sites and services on the Internet",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Github Link",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Docker Link",
+                    "Data": "arjun1638/apachev2"
+                  },
+                  {
+                    "Label": "Configuration Parameters",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Dependencies",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Traffic type",
+                    "Data": "HTTP"
+                  },
+                  {
+                    "Label": "Load Generator",
+                    "Data": "Apache bench, wrk, httperf , Siege \n arjun1638/traffic_gen"
+                  }
                 ]
   						}
   			]
