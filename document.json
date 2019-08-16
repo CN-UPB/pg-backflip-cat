@@ -95,17 +95,17 @@
   						  "Id": "22",
   						  "Name": "High Availability Proxy (HAProxy)",
   						  "Logo": "http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png",
-                "Creator": "test",
+                "Creator": "Anush Shankar",
                 "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "Description": "HAProxy is a open source high availability solution which provides load balacing and proxying for TCP and HTTP based applications by spreading requests across multiple servers.",
                 "table_data": [
                     {
                       "Label": "Github Link",
-                      "Data": "#"
+                      "Data": "https://github.com/ShankarAnush/vnfs.git"
                     },
                     {
                       "Label": "Docker Link",
-                      "Data": "#"
+                      "Data": "ashankar3/docker_haproxy_img"
                     }
                 ]
 
@@ -332,9 +332,7 @@
                 "Logo": "https://i.udemycdn.com/course/750x422/1814454_c113.jpg",
                 "Developed By": "test",
                 "Complexity": "1",
-                "Description": "It is a caching proxy for web servers (i.e. HTTP, HTTPS, FTP, etc.). Main feature of squid is that it caches the frequently used web-pages resulting in improved response time
-                                and less network bandwidth utilization. Squid is used to optimize the data flow between server and client. Furthermore,
-                                squid can be used to decrease server load resulting in improved performance for clients.",
+                "Description": "It is a caching proxy for web servers (i.e. HTTP, HTTPS, FTP, etc.). Main feature of squid is that it caches the frequently used web-pages resulting in improved response time and less network bandwidth utilization. Squid is used to optimize the data flow between server and client. Furthermore, squid can be used to decrease server load resulting in improved performance for clients.",
                 "table_data": [
                     {
                       "Label": "Github Link",
