@@ -327,7 +327,7 @@
                     "Label": "Load Generator",
                     "Data": ""
                   }
-                    
+
                 ]
 
   						},
@@ -577,11 +577,11 @@
                 "table_data": [
                     {
                       "Label": "Github Link",
-                      "Data": "#"
+                      "Data": "Local Implementation: \n https://github.com/aahad91/squid_vnf.git \n Tng-Bench/Vim-Emu Implementation: \n https://git.cs.upb.de/ahad/ped_squid.git"
                     },
                     {
                       "Label": "Docker Link",
-                      "Data": "#"
+                      "Data": "aahad91/squid \n aahad91/vnf_client"
                     },
                     {
                       "Label": "Configuration Parameters",
