@@ -689,11 +689,11 @@
                 "table_data": [
                   {
                     "Label": "Github Link",
-                    "Data": "#"
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments.git"
                   },
                   {
                     "Label": "Docker Link",
-                    "Data": "#"
+                    "Data": "arif332/vaaa and arif332/tng-bench-mp"
                   },
                   {
                     "Label": "Configuration Parameters",
@@ -705,7 +705,7 @@
                   },
                   {
                     "Label": "Traffic type",
-                    "Data": "HTTP"
+                    "Data": "Radius"
                   },
                   {
                     "Label": "Load Generator",
