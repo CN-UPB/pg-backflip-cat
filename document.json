@@ -447,27 +447,27 @@
   						},
               {
   						  "Id": "32",
-  						  "Name": "OpenIMScore",
-                "Logo": "http://www.projectclearwater.org/wp-content/uploads/2013/04/cwlogo11.png",
-                "Assignee": "test",
-                "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  						  "Name": "EPC (Open5gs & srsLTE)",
+                "Logo": "",
+                "Assignee": "Abdul Ahad Ayaz",
+                "Complexity": "5",
+                "Description": "This VNF consist of srsLTE and Open5gs. UE and ENB part is from srsLTE and EPC is from Open5gs. UE, ENB and EPC without using any hardware radio equipment and tested it using iperf3. UE and ENB communicate with eachother using shared memory(IPC).",
                 "table_data": [
                   {
                     "Label": "Github Link",
-                    "Data": "#"
+                    "Data": "https://github.com/aahad91/EPC_VNF.git"
                   },
                   {
                     "Label": "Docker Link",
-                    "Data": "#"
+                    "Data": "aahad91/"
                   },
                   {
                     "Label": "Configuration Parameters",
-                    "Data": ""
+                    "Data": "HSS (Open5gs), MME(Open5gs), ENB & UE(srsLTE)"
                   },
                   {
                     "Label": "Dependencies",
-                    "Data": "#"
+                    "Data": "UE, ENB and MongoDB"
                   },
                   {
                     "Label": "Traffic type",
@@ -475,7 +475,7 @@
                   },
                   {
                     "Label": "Load Generator",
-                    "Data": ""
+                    "Data": "iperf3"
                   }
                 ]
   						}
