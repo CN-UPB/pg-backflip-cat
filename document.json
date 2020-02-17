@@ -5,14 +5,15 @@
   	
   	{
   		"Id": "2",
-  		"Name": "Load Balancer",
+      "Name": "Load Balancer",
+      "nid":"loadbalancer",
   		"Description": "",
   		"List":
   			[
   						
   						{
   						  "Id": "22",
-  						  "Name": "High Availability Proxy (HAProxy)",
+  						  "Name": "HAProxy",
   						  "Logo": "http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png",
                 "Assignee": "Anush Shankar",
                 "Complexity": "1",
@@ -156,7 +157,8 @@
   	},
     {
   		"Id": "3",
-  		"Name": "Telecommunication (VoIP)",
+      "Name": "Telecommunication",
+      "nid":"telecommunication",
   		"Description": "",
   		"List":
   			[
@@ -269,7 +271,8 @@
    
     {
   		"Id": "5",
-  		"Name": "Proxy",
+      "Name": "Proxy",
+      "nid":"proxy",
   		"Description": "",
   		"List":
   			[
@@ -381,7 +384,8 @@
   	},
     {
   		"Id": "6",
-  		"Name": "Radius",
+      "Name": "Radius",
+      "nid":"radius",
   		"Description": "",
   		"List":
   			[
@@ -425,7 +429,8 @@
   	},
     {
   		"Id": "7",
-  		"Name": "Web Server",
+      "Name": "Web Server",
+      "nid":"webserver",
   		"Description": "",
   		"List":
   			[
@@ -433,10 +438,8 @@
   						{
   						  "Id": "71",
                 "Name": "Apache HTTP Server",
-                "Logo": "https://www.fullstackpython.com/img/logos/apache-http-server.jpg",
                 "Assignee": "Arjun Parab",
-                "Complexity": "1",
-                "Description": "Apache is a popular open-source, cross-platform web server which is actively maintained by the Apache Software Foundation. It was first released in 1995 and played a key role in initial growth of WWW, today many cpanel utilize apache. Also it provides a secure, efficient and extensible server that provides HTTP services. It mostly runs in linux distribution but current version run on windows also. Now it’s the most popular web server platform for hosting web sites and services on the Internet",
+                "Description": "We have carried several tests using apache VNF with the default configuration, i.e. with prefork on Tngbench and vim emulator. We have used apache bench as the traffic generator with varying concurrency, i.e. 1,100,1000 and apache VNF with varying (a) CPU bandwidth from 10 to 100% (b) A memory from 512 MB to 2048MB (c) CPU cores from 1 to 4",
                 "table_data": [
                   {
                     "Label": "Github Link",
@@ -447,20 +450,28 @@
                     "Data": "arjun1638/apachev2"
                   },
                   {
-                    "Label": "Configuration Parameters",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Dependencies",
+                    "Label": "Configuration Parameters/File",
                     "Data": "#"
                   },
                   {
-                    "Label": "Traffic type",
-                    "Data": "HTTP"
+                    "Label": "Challenges",
+                    "Data": "#"
                   },
                   {
-                    "Label": "Load Generator",
-                    "Data": "Apache bench, wrk, httperf , Siege \n arjun1638/traffic_gen"
+                    "Label": "Traffic Generator",
+                    "Data": "Apache bench, wrk"
+                  },
+                  {
+                    "Label": "Data set (zip)",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "Analysis",
+                    "Data": "#"
+                  },
+                  {
+                    "Label": "References",
+                    "Data": "#"
                   }
                 ]
   						}

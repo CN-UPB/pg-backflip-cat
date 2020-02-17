@@ -49,11 +49,6 @@
   <!-- Masthead -->
   <header class="masthead bg-primary text-white text-center">
     <div class="container d-flex align-items-center flex-column">
-
-      <!-- Masthead Avatar Image -->
-      <!--img class="masthead-avatar mb-5" src="Title.jpg" alt=""-->
-
-      <!-- Masthead Heading -->
       <h1 class="masthead-heading text-uppercase mb-0">BAcKFLiP</h1>
 
       <!-- Icon Divider -->
@@ -92,7 +87,9 @@
         </div>
         <div class="divider-custom-line"></div>
       </div>
-
+      <div id="cat_button_filter">
+       
+    </div>
       <!-- Portfolio Grid Items -->
       <div class="row " >
 
@@ -137,8 +134,109 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
+  <section class="page-section" id="supervisors">
+    <div class="container">
+
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Supervisors </h2>
+
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <div class="row align-items-center">
+        
+        <div class="col-sm middle_txt">
+          Prof. Dr. Holger Karl
+        </div>
+        <div class="col-sm middle_txt">
+          Manuel Peuster
+        </div>
+        <div class="col-sm middle_txt">
+          Stefan Schneider
+        </div>
+      </div>
+
+      
+    </div>
+    
+  </section>
+
+  <section class="page-section bg-primary text-white mb-0" id="project_grp">
+    <div class="container">
+
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Project Members </h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <div class="row align-items-center spacing">
+        <div class="col-sm-3 middle_txt">
+          Abdul Ahad Ayaz
+        </div>
+        <div class="col-sm-3 middle_txt">
+          Anush Shankar
+        </div>
+        <div class="col-sm-3 middle_txt">
+          Arif Hossen
+        </div>
+        
+        <div class="col-sm-3 middle_txt">
+          Arjun Parab
+        </div>
+        
+      </div>
+
+      <div class="row align-items-center spacing">
+        <div class="col-sm-3 middle_txt">
+          Avi Mehenwal
+        </div>
+        <div class="col-sm-3 middle_txt">
+          Bhuvan Sharma
+        </div>
+        <div class="col-sm-3 middle_txt">
+          Deepak Bhardwaj Anantha Rao
+        </div>
+        
+        <div class="col-sm-3 middle_txt">
+          Harshita Puri
+        </div>
+        
+      </div>
+
+      <div class="row align-items-center spacing">
+        <div class="col-sm-3 middle_txt">
+          Haydar Qarawlus
+        </div>
+        <div class="col-sm-3 middle_txt">
+        Ishwariya Raveendran
+        </div>
+        <div class="col-sm-3 middle_txt">
+          Arif Hossen
+        </div>
+        
+        <div class="col-sm-3 middle_txt">
+          Suganthi Jaganathan
+        </div>
+        
+      </div>
+
+      
+    </div>
+    
+  </section>
+
+   <!-- Contact Section -->
+   <section class="page-section" id="contact">
     <div class="container">
 
       <!-- Contact Section Heading -->
@@ -154,15 +252,17 @@
       </div>
 
       <!-- Contact Section Form -->
-      <div class="row">
-        <div class="col">
+      <div class="row align-items-center">
+        <div class="col middle_txt">
           <p>Project Group Backflip</p>
           <p>  <a href="mailto:pg-backflip@lists.uni-paderborn.de?Subject=" target="_top">pg-backflip@lists.uni-paderborn.de</a></p>
         </div>
-
+       
       </div>
 
+      
     </div>
+    
   </section>
 
 
@@ -185,34 +285,63 @@
       $.getJSON("document.json", function(json) {
           if(json!="" && json.type_count!=0)
           {
+            var button_html='<button class="btn btn-primary filter-button" data-filter="all">All</button>';
             for (var i = 0; i < json.Vnf_data.length; i++) {
 
-              for (var j = 0; j < json.Vnf_data[i].List.length; j++) {
-                var append_data='<div class="card" data-toggle="modal" data-target="#portfolioModal'+json.Vnf_data[i].List[j].Id+'">';
+              if(json.Vnf_data[i].List.length>0)
+              {
+                button_html+='<button class="btn btn-default filter-button" data-filter="'+json.Vnf_data[i].nid+'">'+json.Vnf_data[i].Name+'</button>';
+                for (var j = 0; j < json.Vnf_data[i].List.length; j++) {
+                  var append_data='<div class="card filter '+json.Vnf_data[i].nid+'" data-toggle="modal" data-target="#portfolioModal'+json.Vnf_data[i].List[j].Id+'">';
 
-                var table_data='';
-                if(json.Vnf_data[i].List[j].table_data.length)
-                {
-                  table_data='<table class="table table-striped"><thead><tr><th scope="col">Name</th> <th scope="col">Info</th></tr></thead> <tbody>';
-                  for (var l = 0; l < json.Vnf_data[i].List[j].table_data.length; l++) {
-                    table_data+='<tr><td>'+json.Vnf_data[i].List[j].table_data[l].Label+'</td><td>'+json.Vnf_data[i].List[j].table_data[l].Data+'</td></tr>';
+                  var table_data='';
+                  if(json.Vnf_data[i].List[j].table_data.length)
+                  {
+                    table_data='<table class="table table-striped"><thead><tr><th scope="col">Name</th> <th scope="col">Info</th></tr></thead> <tbody>';
+                    for (var l = 0; l < json.Vnf_data[i].List[j].table_data.length; l++) {
+                      if(json.Vnf_data[i].List[j].table_data[l].Data.trim())
+                        table_data+='<tr><td>'+json.Vnf_data[i].List[j].table_data[l].Label+'</td><td>'+json.Vnf_data[i].List[j].table_data[l].Data+'</td></tr>';
+                    }
+                    table_data+=' </tbody><table>';
                   }
-                  table_data+=' </tbody><table>';
+                  var sub_data='<table class="table table-borderless"><tbody><tr><td><p class="text-left"><b>Assigned to:</b></p></td><td><p class="text-left">'+json.Vnf_data[i].List[j].Assignee+'</p></td></tr><tr><td><p class="text-left"><b>Description</b></p></td><td><p class="text-left">'+json.Vnf_data[i].List[j].Description+'</p></td></tr></tbody></table><p class="mb-5">'+table_data+'</p>';
+                  append_data+='<div class="card-body" ><h5 class="card-title">'+json.Vnf_data[i].List[j].Name+'</h5></div></div>';
+
+                  var modal='<div class="portfolio-modal modal fade" id="portfolioModal'+json.Vnf_data[i].List[j].Id+'" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true"><div class="modal-dialog modal-xl" role="document"><div class="modal-content"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button><div class="modal-body text-center"><div class="container">  <div class="row justify-content-center"><div class="col-lg-8"><h5 class="card-title">'+json.Vnf_data[i].List[j].Name+'</h5><div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-star"></i></div><div class="divider-custom-line"></div></div>  '+sub_data+'<button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button></div>  </div>  </div>  </div>  </div>  </div></div>';
+                  $( ".portfolio_items_list" ).append(append_data);
+                  $( "body" ).append(modal);
+
                 }
-                var sub_data='<table class="table table-borderless"><tbody><tr><td><p class="text-left"><b>Assigned to:</b></p></td><td><p class="text-left">'+json.Vnf_data[i].List[j].Assignee+'</p></td></tr><tr><td><p class="text-left"><b>Complexity</b></p></td><td><p class="text-left">'+json.Vnf_data[i].List[j].Complexity+'</p></td></tr><tr><td><p class="text-left"><b>Description</b></p></td><td><p class="text-left">'+json.Vnf_data[i].List[j].Description+'</p></td></tr></tbody></table><p class="mb-5">'+table_data+'</p>';
-                append_data+='<div class="card-body"><h5 class="card-title">'+json.Vnf_data[i].List[j].Name+'</h5></div></div>';
-
-                var modal='<div class="portfolio-modal modal fade" id="portfolioModal'+json.Vnf_data[i].List[j].Id+'" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true"><div class="modal-dialog modal-xl" role="document"><div class="modal-content"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button><div class="modal-body text-center"><div class="container">  <div class="row justify-content-center"><div class="col-lg-8"><h5 class="card-title">'+json.Vnf_data[i].List[j].Name+'</h5><div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-star"></i></div><div class="divider-custom-line"></div></div>  '+sub_data+'<button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button></div>  </div>  </div>  </div>  </div>  </div></div>';
-                 $( ".portfolio_items_list" ).append(append_data);
-                 $( "body" ).append(modal);
-
               }
             }
+
+            if(button_html)
+              $( "#cat_button_filter" ).html(button_html);
           }
 
 
       });
+
+
+
+        $('body').on('click', '.filter-button', function() {
+          var value = $(this).attr('data-filter');
+          if(value == "all")
+          {
+              $('.filter').show('1000');
+          }
+          else
+          {
+              $(".filter").not('.'+value).hide('100');
+              $('.filter').filter('.'+value).show('100');
+            
+          }
+          $('.filter-button').removeClass('btn-primary');
+          $(this).addClass("btn-primary");
+      });
     });
+
+   
 </script>
 
   <!-- Bootstrap core JavaScript -->
@@ -226,6 +355,59 @@
   <script src="js/freelancer.min.js"></script>
 <style>
   .table-striped td { white-space:pre; }
+  .middle_txt{text-align: center;}
+  .spacing{    padding-bottom: 20px;}
+
+  .port-image
+  {
+      width: 100%;
+  }
+
+  .col-md-3
+  {
+      margin-bottom:20px;
+  }
+
+  .each-item
+  {
+      position:relative;
+      overflow:hidden;
+  }
+
+  .each-item:hover .cap2, .each-item:hover .cap1
+  {
+      left:0px;
+  }
+
+  .cap1
+  {
+      position:absolute;
+      width:100%;
+      height:70%;
+      background:rgba(255, 255, 255, 0.5);
+      top:0px;
+      left:-100%;
+      padding:10px;
+      
+      transition: all .5s;
+  }
+
+  .cap2
+  {
+      position:absolute;
+      width:100%;
+      height:30%;
+      background:rgba(0, 178, 255, 0.5);
+      bottom:0px;
+      left:100%;
+      padding:10px;
+      
+      transition: all .5s;
+  }
+  #cat_button_filter{
+    padding-bottom: 20px;
+    text-align: center;
+  }
 </style>
 </body>
 
