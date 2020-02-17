@@ -2,159 +2,14 @@
   "nqme":"w",
   "Vnf_data":
   [
-  	{
-  		"Id": "1",
-  		"Name": "Firewall",
-  		"Description": "",
-  		"List":
-  			[
-
-  						{
-  						  "Id": "11",
-  						  "Name": "IPFire",
-                "Logo": "",
-                "Assignee": "test",
-                "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "table_data": [
-                  {
-                    "Label": "Github Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Docker Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Load Generator",
-                    "Data": ""
-                  }
-                ]
-
-  						},
-              {
-                "Id": "12",
-                "Name": "Linux IPtables",
-                "Logo": "",
-                "Assignee": "test",
-                "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "table_data": [
-                  {
-                    "Label": "Github Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Docker Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Load Generator",
-                    "Data": ""
-                  }
-                ]
-              },
-              {
-                "Id": "13",
-                "Name": "ConfigServer Firewall (CSF)",
-                "Logo": "",
-                "Assignee": "test",
-                "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "table_data": [
-                  {
-                    "Label": "Github Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Docker Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Load Generator",
-                    "Data": ""
-                  }
-                ]
-              }
-  			]
-
-  	},
+  	
   	{
   		"Id": "2",
   		"Name": "Load Balancer",
   		"Description": "",
   		"List":
   			[
-  						{
-  						  "Id": "21",
-  						  "Name": "SeeSaw",
-  						  "Logo" : "",
-                "Assignee": "test",
-                "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "table_data": [
-                  {
-                    "Label": "Github Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Docker Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Load Generator",
-                    "Data": ""
-                  }
-                ]
-  						},
+  						
   						{
   						  "Id": "22",
   						  "Name": "High Availability Proxy (HAProxy)",
@@ -225,112 +80,7 @@
                 ]
 
   						},
-              {
-  						  "Id": "24",
-  						  "Name": "Zevenet",
-  						  "Logo": "https://www.zevenet.com/wp-content/uploads/2017/01/Zevenet_logo_original.png",
-                "Assignee": "test",
-                "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "table_data": [
-                  {
-                    "Label": "Github Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Docker Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Load Generator",
-                    "Data": ""
-                  }
-                ]
-
-  						},
-              {
-  						  "Id": "25",
-  						  "Name": "Neutrino",
-  						  "Logo": "https://camo.githubusercontent.com/c1b6a59c127da47ddbe7bba012b64d2f08732a1c/687474703a2f2f6e65757472696e6f736c622e6769746875622e696f2f696d616765732f6e65757472696e6f2d6c6f676f2e706e67",
-                "Assignee": "test",
-                "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "table_data": [
-                  {
-                    "Label": "Github Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Docker Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Load Generator",
-                    "Data": ""
-                  }
-                ]
-
-  						},
-              {
-  						  "Id": "26",
-  						  "Name": "Pen",
-  						  "Logo": "",
-                "Assignee": "test",
-                "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "table_data": [
-                  {
-                    "Label": "Github Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Docker Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Load Generator",
-                    "Data": ""
-                  }
-
-                ]
-
-  						},
+              
               {
   						  "Id": "27",
   						  "Name": "Gobetween",
@@ -482,84 +232,7 @@
   			]
 
   	},
-    {
-  		"Id": "4",
-  		"Name": "Intrusion Detection System",
-  		"Description": "",
-  		"List":
-  			[
-
-  						{
-  						  "Id": "41",
-  						  "Name": "Suricata",
-                "Logo": "https://idsips.files.wordpress.com/2015/10/suri-400x400.png?w=300",
-                "Assignee": "test",
-                "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "table_data": [
-                  {
-                    "Label": "Github Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Docker Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Load Generator",
-                    "Data": ""
-                  }
-                ]
-  						},
-              {
-  						  "Id": "42",
-  						  "Name": "Snort",
-                "Logo": "https://www.stickpng.com/assets/images/586e6b2cc2d41da57a33ca0d.png",
-                "Assignee": "test",
-                "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "table_data": [
-                  {
-                    "Label": "Github Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Docker Link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Load Generator",
-                    "Data": ""
-                  }
-                ]
-  						}
-  			]
-
-  	},
+   
     {
   		"Id": "5",
   		"Name": "Proxy",
@@ -718,14 +391,14 @@
   	},
     {
   		"Id": "7",
-  		"Name": "Content Delivery Network",
+  		"Name": "Web Server",
   		"Description": "",
   		"List":
   			[
 
   						{
   						  "Id": "71",
-                "Name": "Apache Server",
+                "Name": "Apache HTTP Server",
                 "Logo": "https://www.fullstackpython.com/img/logos/apache-http-server.jpg",
                 "Assignee": "Arjun Parab",
                 "Complexity": "1",
