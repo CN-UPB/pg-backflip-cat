@@ -297,15 +297,17 @@
                   var table_data='';
                   if(json.Vnf_data[i].List[j].table_data.length)
                   {
-                    table_data='<table class="table table-striped"><thead><tr><th scope="col">Name</th> <th scope="col">Info</th></tr></thead> <tbody>';
+                      table_data='<table class="table table-striped"><thead><tr><th scope="col">Name</th> <th scope="col">Info</th></tr></thead> <tbody>';
                     for (var l = 0; l < json.Vnf_data[i].List[j].table_data.length; l++) {
                       if(json.Vnf_data[i].List[j].table_data[l].Data.trim())
                       {
                         if(json.Vnf_data[i].List[j].table_data[l].Type=="text")
+                        {
                           table_data+='<tr><td>'+json.Vnf_data[i].List[j].table_data[l].Label+'</td><td>'+json.Vnf_data[i].List[j].table_data[l].Data+'</td></tr>';
-                        else
+                        }
+                        else {
                           table_data+='<tr><td>'+json.Vnf_data[i].List[j].table_data[l].Label+'</td><td><a href="'+json.Vnf_data[i].List[j].table_data[l].Data+'" target="_blank">Click here</a></td></tr>';
-
+                        }
                       } 
                     }
                     table_data+=' </tbody><table>';
