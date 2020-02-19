@@ -300,7 +300,13 @@
                     table_data='<table class="table table-striped"><thead><tr><th scope="col">Name</th> <th scope="col">Info</th></tr></thead> <tbody>';
                     for (var l = 0; l < json.Vnf_data[i].List[j].table_data.length; l++) {
                       if(json.Vnf_data[i].List[j].table_data[l].Data.trim())
-                        table_data+='<tr><td>'+json.Vnf_data[i].List[j].table_data[l].Label+'</td><td>'+json.Vnf_data[i].List[j].table_data[l].Data+'</td></tr>';
+                      {
+                        if(json.Vnf_data[i].List[j].table_data[l].Type=="text")
+                          table_data+='<tr><td>'+json.Vnf_data[i].List[j].table_data[l].Label+'</td><td>'+json.Vnf_data[i].List[j].table_data[l].Data+'</td></tr>';
+                        else
+                          table_data+='<tr><td>'+json.Vnf_data[i].List[j].table_data[l].Label+'</td><td><a href="'+json.Vnf_data[i].List[j].table_data[l].Data+'" target="_blank">Click here</a></td></tr>';
+
+                      } 
                     }
                     table_data+=' </tbody><table>';
                   }
@@ -332,8 +338,8 @@
           }
           else
           {
-              $(".filter").not('.'+value).hide('100');
-              $('.filter').filter('.'+value).show('100');
+              $(".filter").not('.'+value).hide('2000');
+              $('.filter').filter('.'+value).show('2000');
             
           }
           $('.filter-button').removeClass('btn-primary');

@@ -5,15 +5,14 @@
   	
   	{
   		"Id": "2",
-      "Name": "Load Balancer",
-      "nid":"loadbalancer",
+  		"Name": "Load Balancer",
   		"Description": "",
   		"List":
   			[
   						
   						{
   						  "Id": "22",
-  						  "Name": "HAProxy",
+  						  "Name": "High Availability Proxy (HAProxy)",
   						  "Logo": "http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png",
                 "Assignee": "Anush Shankar",
                 "Complexity": "1",
@@ -21,27 +20,33 @@
                 "table_data": [
                     {
                       "Label": "Github Link",
+                      "Type":"link",
                       "Data": "https://github.com/ShankarAnush/vnfs.git"
                     },
                     {
                       "Label": "Docker Link",
+                      "Type":"text",
                       "Data": "ashankar3/docker_haproxy_img"
                     },
                   {
                     "Label": "Configuration Parameters",
+                    "Type":"link",
                     "Data": ""
                   },
                   {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
+                    "Label": "Traffic Generator",
+                    "Type":"text",
                     "Data": "HTTP"
                   },
                   {
-                    "Label": "Load Generator",
+                    "Label": "Results (CSV)",
+                    "Type":"link",
                     "Data": ""
+                  },
+                  {
+                    "Label": "Analysis",
+                    "Type":"link",
+                    "Data": "#"
                   }
                 ]
 
@@ -56,26 +61,32 @@
                 "table_data": [
                   {
                     "Label": "Github Link",
+                    "Type":"link",
                     "Data": "https://github.com/DeepakBhardwajA/VNF"
                   },
                   {
                     "Label": "Docker Link",
+                    "Type":"text",
                     "Data": "#"
                   },
                   {
                     "Label": "Configuration Parameters",
+                    "Type":"link",
                     "Data": ""
                   },
                   {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
+                    "Label": "Traffic Generator",
+                    "Type":"text",
                     "Data": "HTTP"
                   },
                   {
-                    "Label": "Load Generator",
+                    "Label": "Results (CSV)",
+                    "Type":"link",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Analysis",
+                    "Type":"link",
                     "Data": "#"
                   }
                 ]
@@ -86,33 +97,39 @@
   						  "Id": "27",
   						  "Name": "Gobetween",
   						  "Logo": "http://gobetween.io/i/logo.png",
-                "Assignee": "test",
+                "Assignee": "Arjun Parab",
                 "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "Description": "We are using simple load balancing wherein host are connected to gobetween using their IP addresses and using a weight-based strategy having the same load on each host. For generating traffic, we are using apache bench and wrk. We have used wrk as the traffic generator with varying concurrency, i.e. 100,1000,10000 with 12 threads and gobetween VNF with varying (a) CPU bandwidth from 10 to 100 (b) A memory from 512 MB to 2048MB (c) CPU cores from 1 to 2 . Also, each of the four web servers having one CPU core.",
                 "table_data": [
                   {
                     "Label": "Github Link",
-                    "Data": "#"
+                    "Type":"link",
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/vnfs/vim-emu/Load_balancers/Gobetween"
                   },
                   {
                     "Label": "Docker Link",
-                    "Data": "#"
+                    "Type":"text",
+                    "Data": "arjun1638/gob"
                   },
                   {
                     "Label": "Configuration Parameters",
-                    "Data": ""
+                    "Type":"link",
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/blob/master/vnfs/vim-emu/Load_balancers/Gobetween/t1/gobetween.toml"
                   },
                   {
-                    "Label": "Dependencies",
-                    "Data": "#"
+                    "Label": "Traffic Generator",
+                    "Type":"text",
+                    "Data": "wrk, apache bench"
                   },
                   {
-                    "Label": "Traffic type",
-                    "Data": "HTTP"
+                    "Label": "Results (CSV)",
+                    "Type":"link",
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/results-archive/Load_balancers/Gobetween"
                   },
                   {
-                    "Label": "Load Generator",
-                    "Data": ""
+                    "Label": "Analysis",
+                    "Type":"link",
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/analysis/Load_balancers/Gobetween"
                   }
                 ]
 
@@ -127,27 +144,33 @@
                 "table_data": [
                   {
                     "Label": "Github Link",
+                    "Type":"link",
                     "Data": "https://github.com/ishriya/traefik_vnf"
                   },
                   {
                     "Label": "Docker Link",
+                    "Type":"text",
                     "Data": "ishriya/traefik_vnf"
                   },
                   {
                     "Label": "Configuration Parameters",
+                    "Type":"link",
                     "Data": ""
                   },
                   {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
+                    "Label": "Traffic Generator",
+                    "Type":"text",
                     "Data": "HTTP"
                   },
                   {
-                    "Label": "Load Generator",
-                    "Data": "Apache bench"
+                    "Label": "Results (CSV)",
+                    "Type":"link",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Analysis",
+                    "Type":"link",
+                    "Data": "#"
                   }
                 ]
 
@@ -157,8 +180,7 @@
   	},
     {
   		"Id": "3",
-      "Name": "Telecommunication",
-      "nid":"telecommunication",
+  		"Name": "Telecommunication (VoIP)",
   		"Description": "",
   		"List":
   			[
@@ -173,27 +195,33 @@
                 "table_data": [
                   {
                     "Label": "Github Link",
+                    "Type":"link",
                     "Data": "#"
                   },
                   {
                     "Label": "Docker Link",
+                    "Type":"text",
                     "Data": "#"
                   },
                   {
                     "Label": "Configuration Parameters",
+                    "Type":"link",
                     "Data": ""
                   },
                   {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
+                    "Label": "Traffic Generator",
+                    "Type":"text",
                     "Data": "HTTP"
                   },
                   {
-                    "Label": "Load Generator",
+                    "Label": "Results (CSV)",
+                    "Type":"link",
                     "Data": ""
+                  },
+                  {
+                    "Label": "Analysis",
+                    "Type":"link",
+                    "Data": "#"
                   }
                 ]
   						},
@@ -207,27 +235,33 @@
                 "table_data": [
                   {
                     "Label": "Github Link",
+                    "Type":"link",
                     "Data": "https://github.com/aahad91/EPC_VNF.git"
                   },
                   {
                     "Label": "Docker Link",
+                    "Type":"text",
                     "Data": "aahad91/"
                   },
                   {
                     "Label": "Configuration Parameters",
+                    "Type":"text",
                     "Data": "HSS (Open5gs), MME(Open5gs), ENB & UE(srsLTE)"
                   },
                   {
-                    "Label": "Dependencies",
-                    "Data": "UE, ENB and MongoDB"
-                  },
-                  {
-                    "Label": "Traffic type",
+                    "Label": "Traffic Generator",
+                    "Type":"text",
                     "Data": "HTTP"
                   },
                   {
-                    "Label": "Load Generator",
-                    "Data": "iperf3"
+                    "Label": "Results (CSV)",
+                    "Type":"link",
+                    "Data": ""
+                  },
+                  {
+                    "Label": "Analysis",
+                    "Type":"link",
+                    "Data": "#"
                   }
                 ]
               },
@@ -245,23 +279,28 @@
                   },
                   {
                     "Label": "Docker Link",
-                    "Data": "aahad91/"
+                    "Type":"text",
+                    "Data": "#"
                   },
                   {
                     "Label": "Configuration Parameters",
+                    "Type":"link",
                     "Data": ""
                   },
                   {
-                    "Label": "Dependencies",
+                    "Label": "Traffic Generator",
+                    "Type":"text",
                     "Data": ""
                   },
                   {
-                    "Label": "Traffic type",
+                    "Label": "Results (CSV)",
+                    "Type":"link",
                     "Data": ""
                   },
                   {
-                    "Label": "Load Generator",
-                    "Data": ""
+                    "Label": "Analysis",
+                    "Type":"link",
+                    "Data": "#"
                   }
                 ]
   						}
@@ -271,8 +310,7 @@
    
     {
   		"Id": "5",
-      "Name": "Proxy",
-      "nid":"proxy",
+  		"Name": "Proxy",
   		"Description": "",
   		"List":
   			[
@@ -287,27 +325,33 @@
                 "table_data": [
                     {
                       "Label": "Github Link",
+                      "Type":"link",
                       "Data": "Local Implementation: \n https://github.com/aahad91/squid_vnf.git \n Tng-Bench/Vim-Emu Implementation: \n https://git.cs.upb.de/ahad/ped_squid.git"
                     },
                     {
                       "Label": "Docker Link",
+                      "Type":"text",
                       "Data": "aahad91/squid \n aahad91/vnf_client"
                     },
                     {
                       "Label": "Configuration Parameters",
+                      "Type":"text",
                       "Data": "vim /etc/squid/squid.conf \n acl client src ip_address \n http_access allow client \n cache deny all"
                     },
                     {
-                      "Label": "Dependencies",
-                      "Data": "#"
-                    },
-                    {
-                      "Label": "Traffic type",
+                      "Label": "Traffic Generator",
+                      "Type":"text",
                       "Data": "HTTP"
                     },
                     {
-                      "Label": "Load Generator",
-                      "Data": "Apache Bench"
+                      "Label": "Results (CSV)",
+                      "Type":"link",
+                      "Data": ""
+                    },
+                    {
+                      "Label": "Analysis",
+                      "Type":"link",
+                      "Data": "#"
                     }
                 ]
   						},
@@ -321,27 +365,33 @@
                 "table_data": [
                   {
                     "Label": "Github Link",
+                    "Type":"link",
                     "Data": "#"
                   },
                   {
                     "Label": "Docker Link",
+                    "Type":"text",
                     "Data": "#"
                   },
                   {
                     "Label": "Configuration Parameters",
+                    "Type":"link",
                     "Data": ""
                   },
                   {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
+                    "Label": "Traffic Generator",
+                    "Type":"text",
                     "Data": "HTTP"
                   },
                   {
-                    "Label": "Load Generator",
+                    "Label": "Results (CSV)",
+                    "Type":"link",
                     "Data": ""
+                  },
+                  {
+                    "Label": "Analysis",
+                    "Type":"link",
+                    "Data": "#"
                   }
                 ]
   						},
@@ -355,27 +405,33 @@
                 "table_data": [
                   {
                     "Label": "Github Link",
+                    "Type":"link",
                     "Data": "#"
                   },
                   {
                     "Label": "Docker Link",
+                    "Type":"text",
                     "Data": "#"
                   },
                   {
                     "Label": "Configuration Parameters",
+                    "Type":"link",
                     "Data": ""
                   },
                   {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
+                    "Label": "Traffic Generator",
+                    "Type":"text",
                     "Data": "HTTP"
                   },
                   {
-                    "Label": "Load Generator",
+                    "Label": "Results (CSV)",
+                    "Type":"link",
                     "Data": ""
+                  },
+                  {
+                    "Label": "Analysis",
+                    "Type":"link",
+                    "Data": "#"
                   }
                 ]
   						}
@@ -384,8 +440,7 @@
   	},
     {
   		"Id": "6",
-      "Name": "Radius",
-      "nid":"radius",
+  		"Name": "Radius",
   		"Description": "",
   		"List":
   			[
@@ -400,27 +455,33 @@
                 "table_data": [
                   {
                     "Label": "Github Link",
+                    "Type":"link",
                     "Data": "https://github.com/CN-UPB/pg-backflip-experiments.git"
                   },
                   {
                     "Label": "Docker Link",
+                    "Type":"text",
                     "Data": "arif332/vaaa and arif332/tng-bench-mp"
                   },
                   {
                     "Label": "Configuration Parameters",
+                    "Type":"link",
                     "Data": ""
                   },
                   {
-                    "Label": "Dependencies",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Traffic type",
+                    "Label": "Traffic Generator",
+                    "Type":"text",
                     "Data": "Radius"
                   },
                   {
-                    "Label": "Load Generator",
+                    "Label": "Results (CSV)",
+                    "Type":"link",
                     "Data": ""
+                  },
+                  {
+                    "Label": "Analysis",
+                    "Type":"link",
+                    "Data": "#"
                   }
                 ]
   						}
@@ -429,8 +490,7 @@
   	},
     {
   		"Id": "7",
-      "Name": "Web Server",
-      "nid":"webserver",
+  		"Name": "Web Server",
   		"Description": "",
   		"List":
   			[
@@ -439,39 +499,38 @@
   						  "Id": "71",
                 "Name": "Apache HTTP Server",
                 "Assignee": "Arjun Parab",
+                "Complexity": "1",
                 "Description": "We have carried several tests using apache VNF with the default configuration, i.e. with prefork on Tngbench and vim emulator. We have used apache bench as the traffic generator with varying concurrency, i.e. 1,100,1000 and apache VNF with varying (a) CPU bandwidth from 10 to 100% (b) A memory from 512 MB to 2048MB (c) CPU cores from 1 to 4",
                 "table_data": [
                   {
                     "Label": "Github Link",
-                    "Data": "#"
+                    "Type":"link",
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/experiments/Web_server/Apache"
                   },
                   {
                     "Label": "Docker Link",
+                    "Type":"text",
                     "Data": "arjun1638/apachev2"
                   },
                   {
                     "Label": "Configuration Parameters/File",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Challenges",
-                    "Data": "#"
+                    "Type":"link",
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/blob/master/vnfs/vim-emu/Web_server/Apache/apache-config.conf"
                   },
                   {
                     "Label": "Traffic Generator",
+                    "Type":"text",
                     "Data": "Apache bench, wrk"
                   },
                   {
-                    "Label": "Data set (zip)",
-                    "Data": "#"
+                    "Label": "Results (CSV)",
+                    "Type":"link",
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/results-archive/Web_server/Apache"
                   },
                   {
                     "Label": "Analysis",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "References",
-                    "Data": "#"
+                    "Type":"link",
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/analysis/Web_server/Apache"
                   }
                 ]
   						}
