@@ -26,7 +26,7 @@
                     {
                       "Label": "Github Link",
                       "Type":"link",
-                      "Data": "https://github.com/CN-UPB/pg-backflip-experiments/"
+                      "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/vnfs/vim-emu/Load_balancers/Haproxy"
                     },
                     {
                       "Label": "Docker Image",
@@ -57,38 +57,38 @@
   						  "Logo": "https://www.nginx.com/wp-content/uploads/2018/08/NGINX-logo-rgb-large.png",
                 "Assignee": "Deepak",
                 "Complexity": "1",
-                "Description": " NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It designed for maximum performance and stability in web server. NGINX can also function as a proxy server for Email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers. The motivation for NGINX was to create as fastest web server and maintaining that excellence. NGINX also is frequently placed between clients and a second web server, to serve as an SSL/TLS terminator or a web accelerator. Acting as an intermediary, NGINX efficiently handles tasks that might slow down your web server, such as negotiating SSL/TLS or compressing and caching content to improve performance. Dynamic sites, built using anything from Node.js to PHP, commonly deploy NGINX as a content cache and reverse proxy to reduce load on application servers and make the most effective use of the underlying hardware. NGINX is multifunctional tool as it uses same name tool for the load balancer, reverse proxy and web server. ",
+                "Description": "Nginx (pronounced 'engine-x') is an open-source multifunctional software tool whose motivation was to create the fastest web server and is used for caching, load balancing, reverse proxying, web serving and more. High performance, stability, configuration, and low resource consumption are its key characteristics. It makes hardware load balancers antiquated. As a result, the Nginx software is less expensive and more usable for cloud architectures without the hardware devices. The scalable event-driven architecture is used rather than relying on threads to handle requests. It powers some high-visibility sites such as Netflix, Pinterest, GitHub, and many others",
                 "table_data": [
+                  {
+                    "Label": "Website Link",
+                    "Type":"link",
+                    "Data": "https://www.nginx.com/"
+                  },
                   {
                     "Label": "Github Link",
                     "Type":"link",
-                    "Data": "https://github.com/DeepakBhardwajA/VNF"
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/vnfs/vim-emu/Load_balancers/Nginx"
                   },
                   {
-                    "Label": "Docker Link",
-                    "Type":"text",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
+                    "Label": "Docker Image",
                     "Type":"link",
-                    "Data": ""
+                    "Data": "https://hub.docker.com/u/deepakar"
                   },
-                  {
-                    "Label": "Traffic Generator",
-                    "Type":"text",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Results (CSV)",
-                    "Type":"link",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Analysis",
-                    "Type":"link",
-                    "Data": "#"
-                  }
+                {
+                  "Label": "Traffic Generator",
+                  "Type":"text",
+                  "Data": "Apache bench"
+                },
+                {
+                  "Label": "Dataset link",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/hWmrUoYSCCq3M9u"
+                },
+                {
+                  "Label": "Analysis",
+                  "Type":"link",
+                  "Data": ""
+                }
                 ]
 
   						},
@@ -99,38 +99,41 @@
   						  "Logo": "http://gobetween.io/i/logo.png",
                 "Assignee": "Arjun Parab",
                 "Complexity": "1",
-                "Description": "We are using simple load balancing wherein host are connected to gobetween using their IP addresses and using a weight-based strategy having the same load on each host. For generating traffic, we are using apache bench and wrk. We have used wrk as the traffic generator with varying concurrency, i.e. 100,1000,10000 with 12 threads and gobetween VNF with varying (a) CPU bandwidth from 10 to 100 (b) A memory from 512 MB to 2048MB (c) CPU cores from 1 to 2 . Also, each of the four web servers having one CPU core.",
+                "Description": "It is a free, open-source, modern and minimalistic layer 4 load balancer. It has the following features:\n 1. It supports TCP, TLS and UDP protocols.\n 2. Works on multiple platforms like Linux, Windows and Darwin.\n 3. Healthcheck using the build-in TCP ping and also supports custom scripts.\n 4. It offers a REST API servers configuration, statistics and management.\n 5. Easy installation and single json/toml config file. \n 6.Uses server-side discovery and acts as a router which can have static or query different service registries configuration.",
                 "table_data": [
+
+                  {
+                    "Label": "Website Link",
+                    "Type":"link",
+                    "Data": "http://gobetween.io/"
+                  },
                   {
                     "Label": "Github Link",
                     "Type":"link",
                     "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/vnfs/vim-emu/Load_balancers/Gobetween"
                   },
                   {
-                    "Label": "Docker Link",
-                    "Type":"text",
-                    "Data": "arjun1638/gob"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
+                    "Label": "Docker Image",
                     "Type":"link",
-                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/blob/master/vnfs/vim-emu/Load_balancers/Gobetween/t1/gobetween.toml"
+                    "Data": "https://hub.docker.com/u/arjun1638"
                   },
-                  {
-                    "Label": "Traffic Generator",
-                    "Type":"text",
-                    "Data": "wrk, apache bench"
-                  },
-                  {
-                    "Label": "Results (CSV)",
-                    "Type":"link",
-                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/results-archive/Load_balancers/Gobetween"
-                  },
-                  {
-                    "Label": "Analysis",
-                    "Type":"link",
-                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/analysis/Load_balancers/Gobetween"
-                  }
+                {
+                  "Label": "Traffic Generator",
+                  "Type":"text",
+                  "Data": "wrk, apache bench"
+                },
+                {
+                  "Label": "Dataset link",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/AsH2CYHEjjjjoNc"
+                },
+                {
+                  "Label": "Analysis",
+                  "Type":"link",
+                  "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/analysis/Load_balancers/Gobetween"
+                }
+
+                 
                 ]
 
   						},
@@ -140,38 +143,38 @@
   						  "Logo": "https://d33wubrfki0l68.cloudfront.net/1b8ea408142c253bb8e16596218e4e328d019c58/862c3/assets/img/traefik.logo.bright@3x.svg",
                 "Assignee": "Ishwariya",
                 "Complexity": "1",
-                "Description": "Traefik is a HTTP reverse proxy and load balancer.",
+                "Description": "Traefik is an open-source Edge router that acts as a load balancer and a reverse proxy for TCP and HTTP-based applications and it can be configured automatically as well as manually. It is very easy to configure traefik both automatically as well as manually and it serves very fast and dynamically. It is also notable that traefik integrates easily with every major cluster technology such as Docker, Kubernetes etc. In this experiment, we concentrate on configuring traefik as a load balancer and it is installed as an Ubuntu-based docker image using the binary files coupled with a manual configuration file (traefik.toml) that directs traefik to balance the incoming load among web servers. This experiment is also extended for the first time to use multiple connection points in tng-bench at the output. The experiment has been run under two different scenarios to compare the performance of VNF under various circumstances",
                 "table_data": [
+                  {
+                    "Label": "Website Link",
+                    "Type":"link",
+                    "Data": "https://docs.traefik.io/master/"
+                  },
                   {
                     "Label": "Github Link",
                     "Type":"link",
-                    "Data": "https://github.com/ishriya/traefik_vnf"
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/vnfs/vim-emu/Load_balancers/Traefik"
                   },
                   {
-                    "Label": "Docker Link",
-                    "Type":"text",
-                    "Data": "ishriya/traefik_vnf"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
+                    "Label": "Docker Image",
                     "Type":"link",
-                    "Data": ""
+                    "Data": "https://hub.docker.com/u/ishu06"
                   },
-                  {
-                    "Label": "Traffic Generator",
-                    "Type":"text",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Results (CSV)",
-                    "Type":"link",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Analysis",
-                    "Type":"link",
-                    "Data": "#"
-                  }
+                {
+                  "Label": "Traffic Generator",
+                  "Type":"text",
+                  "Data": "apache bench"
+                },
+                {
+                  "Label": "Dataset link",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/S2Yw2AS806NxAVo"
+                },
+                {
+                  "Label": "Analysis",
+                  "Type":"link",
+                  "Data": ""
+                }
                 ]
 
   						}
@@ -191,38 +194,33 @@
                 "Logo": "https://www.av.tu-berlin.de/fileadmin/_processed_/3/3c/csm_OSIMS-Raute_72ce15a2be.gif",
                 "Assignee": "test",
                 "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "table_data": [
+                "Description": "The Open IMS Core (OpenIMSCore) is an open-source implementation of IMS core platform which includes Call Session Control Functions (CSCFs) and a lightweight Home Subscriber Server (HSS). An OpenIMSCore software component is divided into four logical componet/module - Proxy-CSCF (PCSCF), Serving-CSCF (SCSCF), Interrogating-CSCF (ICSCF) and HSS [",
+                 "table_data": [
+                  {
+                    "Label": "Website Link",
+                    "Type":"link",
+                    "Data": "http://openimscore.sourceforge.net/?q=installation_guide"
+                  },
                   {
                     "Label": "Github Link",
                     "Type":"link",
-                    "Data": "#"
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/vnfs/vim-emu/Telecommunication/OpenIMScore"
                   },
                   {
-                    "Label": "Docker Link",
-                    "Type":"text",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
+                    "Label": "Docker Image",
                     "Type":"link",
-                    "Data": ""
+                    "Data": "https://hub.docker.com/u/arif332"
                   },
-                  {
-                    "Label": "Traffic Generator",
-                    "Type":"text",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Results (CSV)",
-                    "Type":"link",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Analysis",
-                    "Type":"link",
-                    "Data": "#"
-                  }
+                {
+                  "Label": "Dataset link",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/ZWD91WgrzaRy7qC"
+                },
+                {
+                  "Label": "Analysis",
+                  "Type":"link",
+                  "Data": ""
+                }
                 ]
   						},
               {
@@ -231,79 +229,36 @@
                 "Logo": "",
                 "Assignee": "Abdul Ahad Ayaz",
                 "Complexity": "5",
-                "Description": "This VNF consist of srsLTE and Open5gs. UE and ENB part is from srsLTE and EPC is from Open5gs. UE, ENB and EPC without using any hardware radio equipment and tested it using iperf3. UE and ENB communicate with eachother using shared memory(IPC).",
-                "table_data": [
+                "Description": "EPC (Evolved Packet Core) consists of Open5gs and srsLTE. UE and ENB are part of srsLTE and EPC is from Open5gs. EPC is Open Source Implementation of 3GPP Evolved Packet Core i.e. core network of LTE network. It is responsible for providing voice and data in LTE network. In this experimental setup, IPC is used between UE (end user device) and ENB (base station) instead of radio network. MongoDB is used to store the UE data such as IMEI, allowed bandwidth etc. for authentication of UE by EPC.",
+                 "table_data": [
+                  {
+                    "Label": "Website Link",
+                    "Type":"link",
+                    "Data": "https://open5gs.org/"
+                  },
                   {
                     "Label": "Github Link",
                     "Type":"link",
-                    "Data": "https://github.com/aahad91/EPC_VNF.git"
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/"
                   },
                   {
-                    "Label": "Docker Link",
-                    "Type":"text",
-                    "Data": "aahad91/"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
-                    "Type":"text",
-                    "Data": "HSS (Open5gs), MME(Open5gs), ENB & UE(srsLTE)"
-                  },
-                  {
-                    "Label": "Traffic Generator",
-                    "Type":"text",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Results (CSV)",
+                    "Label": "Docker Image",
                     "Type":"link",
-                    "Data": ""
+                    "Data": "https://hub.docker.com/u/aahad91"
                   },
-                  {
-                    "Label": "Analysis",
-                    "Type":"link",
-                    "Data": "#"
-                  }
+                {
+                  "Label": "Dataset link",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/QwSQyETMp5YrsIA"
+                },
+                {
+                  "Label": "Analysis",
+                  "Type":"link",
+                  "Data": ""
+                }
                 ]
-              },
-              {
-  						  "Id": "32",
-  						  "Name": "SrsLTE",
-                "Logo": "",
-                "Assignee": "Anush",
-                "Complexity": "",
-                "Description":"",
-                "table_data": [
-                  {
-                    "Label": "Github Link",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Docker Link",
-                    "Type":"text",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
-                    "Type":"link",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Traffic Generator",
-                    "Type":"text",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Results (CSV)",
-                    "Type":"link",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Analysis",
-                    "Type":"link",
-                    "Data": "#"
-                  }
-                ]
-  						}
+              }
+            
   			]
 
   	},
@@ -321,38 +276,43 @@
                 "Logo": "https://i.udemycdn.com/course/750x422/1814454_c113.jpg",
                 "Assignee": "Abdul Ahad Ayaz",
                 "Complexity": "1",
-                "Description": "It is a caching proxy for web servers (i.e. HTTP, HTTPS, FTP, etc.). Main feature of squid is that it caches the frequently used web-pages resulting in improved response time and less network bandwidth utilization. Squid is used to optimize the data flow between server and client. Furthermore, squid can be used to decrease server load resulting in improved performance for clients.",
+                "Description": "It is a caching proxy for web servers (i.e. HTTP, HTTPS, FTP, etc.). Main feature of squid is that it caches the frequently used web-pages resulting in improved response time and less network bandwidth utilization. Squid is used to optimize the data flow between server and client. Furthermore, squid can be used to decrease server load resulting in improved performance for clients. Active development is going on Squid  and no official docker image is currently available. Although many developers have their own developed image, but that requires testing based on one’s own requirement.",
                 "table_data": [
-                    {
-                      "Label": "Github Link",
-                      "Type":"link",
-                      "Data": "Local Implementation: \n https://github.com/aahad91/squid_vnf.git \n Tng-Bench/Vim-Emu Implementation: \n https://git.cs.upb.de/ahad/ped_squid.git"
-                    },
-                    {
-                      "Label": "Docker Link",
-                      "Type":"text",
-                      "Data": "aahad91/squid \n aahad91/vnf_client"
-                    },
-                    {
-                      "Label": "Configuration Parameters",
-                      "Type":"text",
-                      "Data": "vim /etc/squid/squid.conf \n acl client src ip_address \n http_access allow client \n cache deny all"
-                    },
-                    {
-                      "Label": "Traffic Generator",
-                      "Type":"text",
-                      "Data": "HTTP"
-                    },
-                    {
-                      "Label": "Results (CSV)",
-                      "Type":"link",
-                      "Data": ""
-                    },
-                    {
-                      "Label": "Analysis",
-                      "Type":"link",
-                      "Data": "#"
-                    }
+                  {
+                    "Label": "Website Link",
+                    "Type":"link",
+                    "Data": "http://www.squid-cache.org/"
+                  },
+                  {
+                    "Label": "Github Link",
+                    "Type":"link",
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/vnfs/vim-emu/Proxy/Squid"
+                  },
+                  {
+                    "Label": "Docker Image",
+                    "Type":"link",
+                    "Data": "https://hub.docker.com/u/aahad91"
+                  },
+                {
+                  "Label": "Traffic Generator",
+                  "Type":"text",
+                  "Data": "apache bench"
+                },
+                {
+                  "Label": "Dataset link (vim-emu)",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/t2Xxk84KnRGVRRj"
+                },
+                {
+                  "Label": "Dataset link (openstack)",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/EfA1oFVNon8Edzr"
+                },
+                {
+                  "Label": "Analysis",
+                  "Type":"link",
+                  "Data": ""
+                }
                 ]
   						},
               {
@@ -361,78 +321,88 @@
                 "Logo": "https://uploads.maximilianhils.com/2017-01/logo-brand-inverted.png",
                 "Assignee": "test",
                 "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "table_data": [
+                "Description": "Mitmproxy is an proxy application that is available as an open source. It uses a typical man-in-the-middle attack (MITM) to intercept HTTP and HTTPS connections between client and a web server. It works similar to Squid proxy by accepting connections from clients and forwarding them to the target server. Most of the other proxies are focused on speed optimization through caching and content filtering. The main goal of mitmproxy is to monitor, capture and modify the connections in realtime",
+                  "table_data": [
+                  {
+                    "Label": "Website Link",
+                    "Type":"link",
+                    "Data": "https://mitmproxy.org/"
+                  },
                   {
                     "Label": "Github Link",
                     "Type":"link",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Docker Link",
-                    "Type":"text",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
-                    "Type":"link",
                     "Data": ""
                   },
                   {
-                    "Label": "Traffic Generator",
-                    "Type":"text",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Results (CSV)",
+                    "Label": "Docker Image",
                     "Type":"link",
-                    "Data": ""
+                    "Data": "https://hub.docker.com/u/ishu06"
                   },
-                  {
-                    "Label": "Analysis",
-                    "Type":"link",
-                    "Data": "#"
-                  }
+                {
+                  "Label": "Traffic Generator",
+                  "Type":"text",
+                  "Data": "apache bench"
+                },
+                {
+                  "Label": "Dataset link(vim-emu)",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/CYdLzmovnUTKgbd"
+                },
+                {
+                  "Label": "Dataset link(openstack)",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/ilYkoC22JUg7131"
+                },
+                {
+                  "Label": "Analysis",
+                  "Type":"link",
+                  "Data": ""
+                }
                 ]
   						},
               {
   						  "Id": "53",
   						  "Name": "3Proxy",
                 "Logo": "https://gettraffic.pro/wp-content/uploads/2017/07/3proxy.jpg",
-                "Assignee": "test",
+                "Assignee": "deepak",
                 "Complexity": "1",
-                "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "Description": "3Proxy is a cross-platform freeware proxy server. It includes FTP support and HTTP proxy with HTTPS, POP3 proxy, SMTP proxy, caching DNS proxy, and UDP portmappers. Furthermore, it also includes access control, bandwidth limiter, proxy chaining, syslog, etc. It is small in size, simple and provides many functions",
                 "table_data": [
+                  {
+                    "Label": "Website Link",
+                    "Type":"link",
+                    "Data": "https://3proxy.ru/"
+                  },
                   {
                     "Label": "Github Link",
                     "Type":"link",
-                    "Data": "#"
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/"
                   },
                   {
-                    "Label": "Docker Link",
-                    "Type":"text",
-                    "Data": "#"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
+                    "Label": "Docker Image",
                     "Type":"link",
-                    "Data": ""
+                    "Data": "https://hub.docker.com/u/deepakar"
                   },
-                  {
-                    "Label": "Traffic Generator",
-                    "Type":"text",
-                    "Data": "HTTP"
-                  },
-                  {
-                    "Label": "Results (CSV)",
-                    "Type":"link",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Analysis",
-                    "Type":"link",
-                    "Data": "#"
-                  }
+                {
+                  "Label": "Traffic Generator",
+                  "Type":"text",
+                  "Data": "apache bench"
+                },
+                {
+                  "Label": "Dataset link (vim-emu)",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/gDRNgkGB6HhEst2"
+                },
+                {
+                  "Label": "Dataset link (openstack)",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/1B0S81Jy7pdbD2l"
+                },
+                {
+                  "Label": "Analysis",
+                  "Type":"link",
+                  "Data": ""
+                }
                 ]
   						}
   			]
@@ -451,38 +421,35 @@
                 "Logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Freeradius_logo.svg/1280px-Freeradius_logo.svg.png",
                 "Assignee": "Arif",
                 "Complexity": "1",
-                "Description": "The FreeRADIUS Server Project is a high performance and highly configurable multi-protocol policy server, supporting RADIUS, DHCPv4 and VMPS. Using RADIUS allows authentication and authorization for a network to be centralized, and minimizes the number of changes that have to be done when adding or deleting new users to a network.\n\nFreeRADIUS can authenticate users on systems such as 802.1x (WiFi), dialup, PPPoE, VPN's, VoIP, and many others. It supports back-end databases such as MySQL, PostgreSQL, Oracle, Microsoft Active Directory, Redis, OpenLDAP. It is used daily to authenticate the Internet access for hundreds of millions of people, in sites ranging from 10 to 10 million+ users. https://github.com/CN-UPB/pg-backflip-experiments/wiki/vAAA-Experiment",
+                "Description": "FreeRADIUS is an open source implementation of RADIUS protocol for the Authentication, Authorization and Accounting (AAA)",
                 "table_data": [
+                  {
+                    "Label": "Website Link",
+                    "Type":"link",
+                    "Data": "https://freeradius.org/"
+                  },
                   {
                     "Label": "Github Link",
                     "Type":"link",
-                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments.git"
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/vnfs/vim-emu/Authentication_server/Radius"
                   },
                   {
-                    "Label": "Docker Link",
-                    "Type":"text",
-                    "Data": "arif332/vaaa and arif332/tng-bench-mp"
-                  },
-                  {
-                    "Label": "Configuration Parameters",
+                    "Label": "Docker Image",
                     "Type":"link",
-                    "Data": ""
+                    "Data": "https://hub.docker.com/u/arif332"
                   },
-                  {
-                    "Label": "Traffic Generator",
-                    "Type":"text",
-                    "Data": "Radius"
-                  },
-                  {
-                    "Label": "Results (CSV)",
-                    "Type":"link",
-                    "Data": ""
-                  },
-                  {
-                    "Label": "Analysis",
-                    "Type":"link",
-                    "Data": "#"
-                  }
+                
+                {
+                  "Label": "Dataset link (vim-emu)",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/buWdMvfefUTGkcr"
+                },
+                
+                {
+                  "Label": "Analysis",
+                  "Type":"link",
+                  "Data": ""
+                }
                 ]
   						}
   			]
@@ -500,38 +467,38 @@
                 "Name": "Apache HTTP Server",
                 "Assignee": "Arjun Parab",
                 "Complexity": "1",
-                "Description": "We have carried several tests using apache VNF with the default configuration, i.e. with prefork on Tngbench and vim emulator. We have used apache bench as the traffic generator with varying concurrency, i.e. 1,100,1000 and apache VNF with varying (a) CPU bandwidth from 10 to 100% (b) A memory from 512 MB to 2048MB (c) CPU cores from 1 to 4",
-                "table_data": [
+                "Description": "It is a free opensource cross-platform web server maintained by Apache Software Foundation andwas first released (httpd) in 1995. Also, it highly customizable using extensions and modulesbased on requirements. Mostly, LAMP stack is a standard installation on Apache for creating awebsite and web applications",
+                 "table_data": [
+                  {
+                    "Label": "Website Link",
+                    "Type":"link",
+                    "Data": "https://httpd.apache.org/"
+                  },
                   {
                     "Label": "Github Link",
                     "Type":"link",
-                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/experiments/Web_server/Apache"
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/vnfs/vim-emu/Web_server/Apache"
                   },
                   {
-                    "Label": "Docker Link",
-                    "Type":"text",
-                    "Data": "arjun1638/apachev2"
-                  },
-                  {
-                    "Label": "Configuration Parameters/File",
+                    "Label": "Docker Image",
                     "Type":"link",
-                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/blob/master/vnfs/vim-emu/Web_server/Apache/apache-config.conf"
+                    "Data": "https://hub.docker.com/u/arjun1638"
                   },
-                  {
-                    "Label": "Traffic Generator",
-                    "Type":"text",
-                    "Data": "Apache bench, wrk"
-                  },
-                  {
-                    "Label": "Results (CSV)",
-                    "Type":"link",
-                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/results-archive/Web_server/Apache"
-                  },
-                  {
-                    "Label": "Analysis",
-                    "Type":"link",
-                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/analysis/Web_server/Apache"
-                  }
+                {
+                  "Label": "Traffic Generator",
+                  "Type":"text",
+                  "Data": "apache bench,wrk"
+                },
+                {
+                  "Label": "Dataset link",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/k0PFq9gPrYqpaaM"
+                },
+                {
+                  "Label": "Analysis",
+                  "Type":"link",
+                  "Data": ""
+                }
                 ]
   						}
   			]
