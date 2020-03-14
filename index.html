@@ -284,9 +284,9 @@
 
               if(json.Vnf_data[i].List.length>0)
               {
-                button_html+='<button class="btn btn-default filter-button" data-filter="'+json.Vnf_data[i].nid+'">'+json.Vnf_data[i].Name+'</button>';
+                button_html+='<button class="btn btn-default filter-button" data-filter="'+json.Vnf_data[i].Id+'">'+json.Vnf_data[i].Name+'</button>';
                 for (var j = 0; j < json.Vnf_data[i].List.length; j++) {
-                  var append_data='<div class="card filter '+json.Vnf_data[i].nid+'" data-toggle="modal" data-target="#portfolioModal'+json.Vnf_data[i].List[j].Id+'">';
+                  var append_data='<div class="card filter '+json.Vnf_data[i].Id+'" data-toggle="modal" data-target="#portfolioModal'+json.Vnf_data[i].List[j].Id+'">';
 
                   var table_data='';
                   if(json.Vnf_data[i].List[j].table_data.length)

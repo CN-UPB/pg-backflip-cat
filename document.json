@@ -17,7 +17,6 @@
                 "Assignee": "Anush Shankar",
                 "Complexity": "1",
                 "Description": "HAProxy, which stands for High Availability Proxy, is an open source software TCP/HTTP load balancer and proxying solution that runs on multi operating system. The major function of HAProxy is to balance the load across multiple servers, to increase the performance and failure safety",
-                
                 "table_data": [
                     {
                       "Label": "Website Link",
