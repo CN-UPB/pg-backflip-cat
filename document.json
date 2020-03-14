@@ -16,37 +16,38 @@
   						  "Logo": "http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png",
                 "Assignee": "Anush Shankar",
                 "Complexity": "1",
-                "Description": "HAProxy is a open source high availability solution which provides load balacing and proxying for TCP and HTTP based applications by spreading requests across multiple servers.",
+                "Description": "HAProxy, which stands for High Availability Proxy, is an open source software TCP/HTTP load balancer and proxying solution that runs on multi operating system. The major function of HAProxy is to balance the load across multiple servers, to increase the performance and failure safety",
+                
                 "table_data": [
+                    {
+                      "Label": "Website Link",
+                      "Type":"link",
+                      "Data": "https://www.haproxy.org/"
+                    },
                     {
                       "Label": "Github Link",
                       "Type":"link",
-                      "Data": "https://github.com/ShankarAnush/vnfs.git"
+                      "Data": "https://github.com/CN-UPB/pg-backflip-experiments/"
                     },
                     {
-                      "Label": "Docker Link",
-                      "Type":"text",
-                      "Data": "ashankar3/docker_haproxy_img"
+                      "Label": "Docker Image",
+                      "Type":"link",
+                      "Data": "https://hub.docker.com/u/ashankar3"
                     },
-                  {
-                    "Label": "Configuration Parameters",
-                    "Type":"link",
-                    "Data": ""
-                  },
                   {
                     "Label": "Traffic Generator",
                     "Type":"text",
-                    "Data": "HTTP"
+                    "Data": "Apache bench"
                   },
                   {
-                    "Label": "Results (CSV)",
+                    "Label": "Dataset link",
                     "Type":"link",
-                    "Data": ""
+                    "Data": "https://uni-paderborn.sciebo.de/s/xBioWa7r0xOPkhm"
                   },
                   {
                     "Label": "Analysis",
                     "Type":"link",
-                    "Data": "#"
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/analysis/Load_balancers/Haproxy"
                   }
                 ]
 
