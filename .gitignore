@@ -102,3 +102,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+Goal_diagram.pdf

@@ -12,7 +12,7 @@
   						
   						{
   						  "Id": "22",
-  						  "Name": "High Availability Proxy (HAProxy)",
+  						  "Name": "High Availability Proxy",
   						  "Logo": "http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png",
                 "Assignee": "Anush Shankar",
                 "Complexity": "1",
@@ -87,7 +87,7 @@
                 {
                   "Label": "Analysis",
                   "Type":"link",
-                  "Data": ""
+                  "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/analysis/Load_balancers/Nginx"
                 }
                 ]
 
@@ -219,7 +219,7 @@
                 {
                   "Label": "Analysis",
                   "Type":"link",
-                  "Data": ""
+                  "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/analysis/Telecommunication/OpenIMScore"
                 }
                 ]
   						},
@@ -311,7 +311,7 @@
                 {
                   "Label": "Analysis",
                   "Type":"link",
-                  "Data": ""
+                  "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/analysis/Proxy/Squid"
                 }
                 ]
   						},
@@ -448,7 +448,7 @@
                 {
                   "Label": "Analysis",
                   "Type":"link",
-                  "Data": ""
+                  "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/analysis/Authentication_server/Radius"
                 }
                 ]
   						}
@@ -497,7 +497,50 @@
                 {
                   "Label": "Analysis",
                   "Type":"link",
-                  "Data": ""
+                  "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/analysis/Web_server/Apache"
+                }
+                ]
+  						}
+  			]
+
+    },
+    {
+  		"Id": "8",
+  		"Name": "Service Function Chain",
+  		"Description": "",
+  		"List":
+  			[
+  						{
+  						  "Id": "81",
+                "Name": "Service Function Chain",
+                "Assignee": "",
+                "Complexity": "",
+                "Description": "Using the capabilities of Software Defined networking, a chain of network services like intrusion detection, firewalls, proxies, load balancers. The objective of such chaining is to automate the network connections setup by handling the flow of the traffic in this chain of network functions. Use cases of Service Function Chain (SFC) includes carrier networks, data centers and etc",
+                 "table_data": [
+                  {
+                    "Label": "Github Link",
+                    "Type":"link",
+                    "Data": "https://github.com/CN-UPB/pg-backflip-experiments/"
+                  },
+                  {
+                    "Label": "Docker Image",
+                    "Type":"text",
+                    "Data": "https://hub.docker.com/u/ishu06/mitm_vnf \n https://hub.docker.com/u/ashankar3/haproxy/ \n https://hub.docker.com/u/ashankar3/apache-ws-1"
+                  },
+                {
+                  "Label": "Traffic Generator",
+                  "Type":"text",
+                  "Data": "apache bench"
+                },
+                {
+                  "Label": "Dataset link",
+                  "Type":"link",
+                  "Data": "https://uni-paderborn.sciebo.de/s/4kHUp1HDJz9ODLc"
+                },
+                {
+                  "Label": "Analysis",
+                  "Type":"link",
+                  "Data": "https://github.com/CN-UPB/pg-backflip-experiments/tree/master/analysis/Sfc"
                 }
                 ]
   						}
