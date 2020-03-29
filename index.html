@@ -138,9 +138,9 @@
   <li> Run a second set of benchmarking experiments using your extended toolchain</li>
     <li> Document all experiment setups and outcomes</li>
       <li> Analyse the outcomes and polish the data for publication</li></ul>
-        <img src="Goal_diagram-1.png" class="img-fluid" alt="Responsive image">
+        <div class="img-goal-wrapper"><img src="Goal_diagram-1.png" class="img-fluid" alt="Responsive image"></div>
 
-        <h4>References:</h4>
+        <div class="div-wrapper"> <h4>References:</h4></div>
         <p> <ul> 
           <li><a href="http://ieeexplore.ieee.org/document/8169826/" target="_blank">M. Peuster and H. Karl: [Profile Your Chains, Not Functions: Automated Network Service Profiling in DevOps Environments]. IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN), Berlin, Germany. (2017)</a></li>
           <li> <a href="https://datatracker.ietf.org/doc/draft-rosa-bmwg-vnfbench/" target="_blank"> R. Rosa, C. Rothenberg, M. Peuster, H.Karl:  [Methodology for VNF Benchmarking Automation. IETF draft BMWG (ongoing work)] (2018)</a></li>
@@ -439,6 +439,28 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .img-fluid{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 600px;
+
+  }
+  .div-wrapper{
+    display: block;
+  }
+  .img-goal-wrapper{
+    width: 100%;
+  }
+  @media screen and (max-width: 600px) {
+    .img-fluid{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width:-webkit-fill-available;
+  }
+}
 </style>
 </body>
 
